@@ -90,7 +90,7 @@ survive <- function(pred1){
   return(vec)
 }
 
-# Including the predicted suivided coloum in test
+# Including the predicted suivided coloum in test data frame
 
 test$Survived = survive(test_predict)
 
